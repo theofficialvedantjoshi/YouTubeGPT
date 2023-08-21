@@ -22,7 +22,7 @@ title_template = PromptTemplate(
 )
 script_template = PromptTemplate(
     input_variables = ['title','time','tone'],
-    template='write me a youtube video script based on this title TITLE: {title} so that the length of the video is {time} long and the tone of the script is {tone}'
+    template='write me a detailed youtube video script with this time duration DURATION:{time}, based on this title TITLE: {title} and in a {tone} tone'
 )
 
 #memory
